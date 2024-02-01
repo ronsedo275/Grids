@@ -83,8 +83,8 @@ body{
     background: white;
     flex-direction: row;
     border: 1px solid black;
-    padding: 2rem 5rem;
-    border-radius: 15px;
+    padding: 2rem 2rem;
+    border-radius: 4rem;
     gap: 1rem;
 }
 
@@ -117,4 +117,74 @@ body{
 
 .recent{
     font-weight: 100;
+}
+
+.insta{
+    background: #fff;
+    border: 1px solid black;
+    position: relative;
+    bottom: 12.3rem;
+    left: 24rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: fit-content;
+}
+
+.insta1{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 13px;
+}
+
+.two1, .two2{
+    background: #fff;
+    border: .9px solid black;
+    border-radius: 4rem;
+    padding: 1.3rem;
+    width: 10em;
+    text-align: center;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.liked-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.liked{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 1.2rem 3.2rem;
+    border-radius: 2rem;
+    gap: 1rem;
+}
+
+.liked img{
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.liked-icon1{
+    color: #3498db;
+}
+
+.part-two{
+    padding-bottom: 15rem;
 }
